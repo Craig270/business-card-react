@@ -3,8 +3,9 @@ import React from "react";
 
 export default function Info() {
   return (
-    <div>
-      <h1>This is working</h1>
+    <div className="bobross">
+      <h1>This is working </h1>
+      <h3> I love boobs</h3>
     </div>
   );
 }
