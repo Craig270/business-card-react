@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Info from "./components/Info";
-import "./index.scss";
+import "./index.css";
 
 ReactDOM.render(
-  <div>
+  <div className="app-div">
     <Info />
   </div>,
   document.getElementById("root")

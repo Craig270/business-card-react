@@ -1,0 +1,67 @@
+h1 {
+  color: #ffffff;
+}
+
+.bobross {
+  min-height: 100vh;
+  width: 555px;
+  background-color: #23252c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.paint {
+  color: #918e9b;
+  min-height: 100vh;
+  width: 317px;
+  background-color: #1a1b21;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.About h1 {
+  margin-bottom: -10px;
+}
+
+.About h2 {
+  margin-bottom: -10px;
+  color: #f3bf99;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.Footer {
+  background-color: #161619;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  bottom: -0;
+}
+
+body {
+  background-color: rgba(217, 241, 230, 0.4);
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,11 +1,22 @@
 import React from "react";
-// Import css
+import ProfilePic from "./ProfilePic";
+import About from "./About";
+import Me from "./Me";
+import Footer from "./Footer";
+import Interests from "./Interests";
 
 export default function Info() {
   return (
     <div className="bobross">
-      <h1>This is working </h1>
-      <h3> I love boobs</h3>
+      <div className="paint">
+        <ProfilePic />
+        <About />
+        <Me />
+        <Interests />
+        <footer>
+          <Footer />
+        </footer>
+      </div>
     </div>
   );
 }
