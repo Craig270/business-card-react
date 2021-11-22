@@ -1,5 +1,5 @@
 import React from "react";
-
+import { MdEmail } from "react-icons/md";
 export default function About() {
   return (
     <div className="About">
@@ -7,7 +7,7 @@ export default function About() {
       <h2>Frontend Developer</h2>
       <p>craigneff.website</p>
       <button type="button" className="email-btn">
-        Email
+        <MdEmail /> Email
       </button>
     </div>
   );

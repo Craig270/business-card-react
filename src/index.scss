@@ -3,6 +3,16 @@ $background: #23252c;
 $cardBack: #1a1b21;
 $text: #918e9b;
 
+@mixin sizing {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  h1 {
+    margin-bottom: -18px;
+  }
+}
+
 h1 {
   color: $myColor;
 }
@@ -41,7 +51,26 @@ h1 {
     font-size: 14px;
     font-weight: 300;
   }
+  .email-btn {
+    color: #161619;
+    padding: 15px 95px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+  }
 }
+
+.me {
+  @include sizing();
+}
+
+.interests {
+  @include sizing();
+}
+
 .Footer {
   background-color: #161619;
   display: flex;
